@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- -->
+<html lang="en">
+
+<head>
+    <!-- data for the browser, not necessary for the user-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="#">
+    <!--If i have a linked css and a style tag in the same area for the same area it looks like the style tag overrides the link? usually want to use the separate file-->
+    <!--style tags can be in the body as well, but using the style tag can get messy-->
+    <!--can link css file or create style tag to directly type css in the same file-->
+    <style>
+        h1 {
+            color: lightgreen;
+            text-align: center;
+        }
+
+        h3 {
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+            text-align: center;
+        }
+
+        div {
+            border-width: 50px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 25px;
+            background-color: grey;
+        }
+
+        .divSections {
+            background-color: lightgrey;
+            border: 5px solid black;
+            border-radius: 5px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <h1 id="twoTruthsLie">Two Truths and a Lie</h1>
+        <div class="divSections">
+            <h3>Went snowboarding</h3>
+            <p>We went to perfect north last tuesday.</p>
+        </div>
+        <div class="divSections">
+            <h3>Raised animals from horses to snakes</h3>
+            <p>I grew up on a farm, and loved pets.</p>
+        </div>
+        <div class="divSections">
+            <h3>Mormon family</h3>
+            <p>my family was originally from Utah.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

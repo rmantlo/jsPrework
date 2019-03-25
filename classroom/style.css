@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+}
+body {
+    background-color:lightskyblue;
+}
+
+table {
+    border: 5px solid black;
+    text-align:center;
+    margin:auto;
+}
+.titles{
+    font-style:italic;
+}

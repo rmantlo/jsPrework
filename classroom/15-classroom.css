@@ -1,0 +1,19 @@
+#twoTruthsLie {
+    color: lightgreen;
+    text-align:center;
+
+}
+
+h3 {
+    color: blue;
+    text-align:center;
+}
+
+p {color:red;
+    text-align:center;
+}
+
+div {border-style: solid;
+border-color:black;
+border-width: 5px;
+}
